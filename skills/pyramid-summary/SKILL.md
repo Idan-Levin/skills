@@ -16,7 +16,7 @@ The text to summarize is pasted in the request or given as a file path. Read it 
 1. Start with the single most important takeaway (1-3 sentences). A reader who only reads this should understand the main message.
 2. Identify the 3-7 highest-level supporting ideas that directly support the takeaway. Group related ideas together and remove repetition.
 3. Under each supporting idea, give concise bullet points: key evidence, arguments, examples, findings.
-4. Preserve all important information — don't invent facts, don't omit important arguments, merge duplicates.
+4. Preserve decision-relevant information, merge duplicates, and identify any material omissions needed to meet the requested length.
 5. Rewrite for clarity: simple, direct language. Every sentence adds new information.
 6. Build a logical hierarchy (inverted tree) — every section summarizes what's beneath it, every bullet supports its parent heading.
 7. Put recommendations or decisions near the top, not buried at the end.
@@ -35,8 +35,8 @@ Short explanation.
 # Supporting Idea 2
 ...
 
-# Missing or Unclear
+# Missing, Unclear, or Omitted
 <assumptions, ambiguities, contradictions, or open questions that remain>
 ```
 
-Should read as an executive brief, understandable in under five minutes, while preserving the source's core reasoning.
+Omit the final section when there is nothing material to report. Unless the user requests more detail, keep the brief readable in under five minutes while preserving the source's core reasoning.
