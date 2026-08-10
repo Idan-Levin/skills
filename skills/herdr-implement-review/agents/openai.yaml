@@ -1,0 +1,7 @@
+interface:
+  display_name: "Herdr Implement Review"
+  short_description: "Run explicit Herdr implementation reviews."
+  default_prompt: "Use $herdr-implement-review to run this workflow for my concrete task."
+
+policy:
+  allow_implicit_invocation: false

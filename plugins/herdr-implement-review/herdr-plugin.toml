@@ -1,0 +1,12 @@
+id = "idan.implement-review"
+name = "Implement + Security Review"
+version = "0.3.0"
+min_herdr_version = "0.7.0"
+description = "Uses the invoking Claude or Codex pane as mother, with Codex implementation and proportionate security review."
+platforms = ["macos", "linux"]
+
+[[actions]]
+id = "run"
+title = "Implement with Codex + Review"
+contexts = ["pane"]
+command = ["bash", "scripts/run-workflow.sh"]

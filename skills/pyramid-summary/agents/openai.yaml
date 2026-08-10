@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pyramid Summary"
+  short_description: "Create concise answer-first executive briefs."
+  default_prompt: "Use $pyramid-summary to restructure this text into an answer-first executive brief."
