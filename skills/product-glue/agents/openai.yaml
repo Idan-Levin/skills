@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Glue"
+  short_description: "Make new UI features feel native to the existing product."
+  default_prompt: "Use $product-glue while building this UI feature so it fits the existing product, then run the glue pass."
