@@ -1,6 +1,7 @@
 # Skills and plugins
 
-Personal collection of agent skills and Herdr plugins.
+Personal collection of coding-agent skills and Herdr plugins, installable with
+[skills.sh](https://skills.sh).
 
 ## Agent skills
 
@@ -13,10 +14,15 @@ npx skills add Idan-Levin/skills
 Install one skill:
 
 ```bash
+npx skills add Idan-Levin/skills --skill product-glue
 npx skills add Idan-Levin/skills --skill pyramid-summary
 npx skills add Idan-Levin/skills --skill herdr-implement-review
 ```
 
+- **product-glue** — make a new or changed UI feature fit the product around it: study the existing
+  routes, components, tokens, terminology and data models first, build with them, then run a
+  coherence pass across language, design, navigation, relationships, data model, duplication,
+  discoverability and context — and fix what it finds.
 - **pyramid-summary** — create answer-first executive summaries using the Pyramid Principle.
 - **herdr-implement-review** — explicitly launch and mother a Herdr implementation-review workflow.
 
